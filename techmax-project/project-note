@@ -36,6 +36,7 @@
 remote_user = ec2-user 
 inventory = inventory 
 private_key_file = ~/.ssh/id_rsa
+host_name_checking = false
 
 13. run the ansible playbook
     ansible-playbook deploy-techmax.yml
